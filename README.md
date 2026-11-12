@@ -17,7 +17,7 @@ It provides separate dashboards for students and administrators, allowing studen
 
 ## Key Features
 
-- **AI-Powered Categorization:** Automatically categorizes student complaints using AI.
+- **AI-Powered Assistant:** An integrated AI chatbot that helps students resolve queries, provides guidance, and assists them in navigating the grievance management process.
 - **Student Dashboard:** Submit complaints, track their status, and view complaint history.
 - **Admin Dashboard:** Manage complaints, update statuses, and monitor grievance statistics.
 - **Email Notifications:** Keeps students informed about complaint updates.
