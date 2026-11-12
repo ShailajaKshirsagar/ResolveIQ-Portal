@@ -43,9 +43,12 @@ It provides separate dashboards for students and administrators, allowing studen
 
 ### Student Dashboard
 <!-- ![Student Dashboard](docs/screenshots/student-dashboard.png) -->
+<img width="1917" height="910" alt="{A4FC77E9-50ED-44E4-A607-A0D13E95DC4E}" src="https://github.com/user-attachments/assets/bb91c6e8-6b03-4d43-9d39-982dfd43a246" />
 
 ### Admin Dashboard
 <!-- ![Admin Dashboard](docs/screenshots/admin-dashboard.png) -->
+<img width="1906" height="910" alt="{DE82CEF1-C7B7-48F7-9657-DE6C5C82255E}" src="https://github.com/user-attachments/assets/d33a4a7b-78db-4890-9da6-b565f19188f5" />
+
 
 ## Getting Started
 
