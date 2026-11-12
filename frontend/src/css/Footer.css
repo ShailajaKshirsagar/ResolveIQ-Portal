@@ -1,0 +1,82 @@
+.footer-section {
+  background-color: #212842;
+  color: white;
+  padding: 60px 0 20px;
+}
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-subtitle {
+  margin-top: 15px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  
+}
+
+.footer-points {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-points li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+.footer-center {
+  text-align: center;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+.footer-links a:hover {
+  color: #f4a825;
+  transform: translateX(5px);
+}
+
+.footer-icon {
+  font-size: 14px;
+}
+
+.college-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #f4a825;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.college-link:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 0.9rem;
+}

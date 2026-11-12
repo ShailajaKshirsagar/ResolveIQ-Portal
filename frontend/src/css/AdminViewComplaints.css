@@ -1,0 +1,170 @@
+.admin-view-container {
+  padding: 100px 40px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.top-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-bar h2 {
+  color: #1e293b;
+}
+
+.center-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.search-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  width: 600px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;  
+  padding: 8px 12px;
+  border-right: 1px solid #e2e8f0;
+  width: 500px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.search-btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.search-btn:hover {
+  background: #16a34a;
+}
+
+.refresh-btn {
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.refresh-btn:hover {
+  background: #0284c7;
+}
+
+.table-wrapper {
+  background: white;
+  border-radius: 12px;
+  overflow-x: auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead {
+  background: #0f172a;
+  color: white;
+}
+
+th {
+  padding: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+td {
+  padding: 14px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+  background: #f1f5f9;
+}
+
+th:nth-child(1), td:nth-child(1) { width: 20%; }
+th:nth-child(2), td:nth-child(2) { width: 25%; }
+th:nth-child(3), td:nth-child(3) { width: 20%; }
+th:nth-child(4), td:nth-child(4) { width: 15%; }
+th:nth-child(5), td:nth-child(5) { width: 20%; }
+
+.status {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.pending {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.status.resolved {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.status.rejected {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.priority {
+  font-weight: bold;
+}
+
+.priority.high {
+  color: red;
+}
+
+.priority.medium {
+  color: orange;
+}
+
+.priority.low {
+  color: green;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+}
+.status-dropdown{
+  border: none;
+  margin-left: 100px;
+}
+

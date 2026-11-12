@@ -1,0 +1,89 @@
+.register-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #212842, #2e4a7d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.register-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  width: 600px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #212842;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid #bfb8b8;
+  border-radius: 10px;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  background: #f9f9f9;
+}
+
+.icon {
+  font-size: 18px;
+  color: #212842;
+  width: 20px;
+}
+
+.input-group input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #128a22;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.register-btn:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* 🔥 Spinner */
+.spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid white;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

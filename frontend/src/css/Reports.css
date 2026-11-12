@@ -1,0 +1,142 @@
+.reports-container {
+  padding: 110px 40px 60px;
+  background: linear-gradient(to right, #fdf6ec, #eef2ff);
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+.reports-container h1 {
+  text-align: center;
+  margin-bottom: 35px;
+  color: #070707;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.reports-container h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Download Box */
+.download-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin: 0 auto 50px auto;
+  background: #ffffff;
+  padding: 14px 20px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  /* width: fit-content; */
+  width: 700px;
+  transition: 0.3s;
+}
+
+.download-box:hover {
+  transform: translateY(-2px);
+}
+
+/* Input */
+.download-box input {
+  padding: 9px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.download-box input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.3);
+}
+
+/* Button */
+.download-box button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.download-box button:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+}
+
+/* 🔥 DARK REPORTS SECTION */
+.reports-list {
+  max-width: 700px;
+  margin: auto;
+
+  background: #1e293b; /* soft dark */
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Center Heading */
+.reports-list h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f1f5f9;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Optional small subtitle */
+.reports-list p {
+  text-align: center;
+  color: #cbd5f5;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+/* Report Card */
+.report-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #334155; /* card dark */
+  padding: 14px 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  border: 1px solid #475569;
+}
+
+/* Hover */
+.report-card:hover {
+  background: #475569;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
+
+/* Excel Icon */
+.excel-icon {
+  color: #22c55e;
+  font-size: 20px;
+}
+
+/* File Name */
+.report-card span {
+  font-size: 15px;
+  color: #e2e8f0;
+  font-weight: 500;
+}

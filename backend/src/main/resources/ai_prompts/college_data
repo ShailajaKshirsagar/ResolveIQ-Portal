@@ -1,0 +1,22 @@
+College Name: MIT World Peace University
+
+Complaint Categories:
+1. Hostel Issues – Room, food, water, electricity
+2. Library Issues – Books, seating, timing
+3. Academic Issues – Faculty, syllabus, exams
+4. Infrastructure Issues – WiFi, labs, classrooms
+5. Cleanliness Issues – Washrooms, campus hygiene
+
+Complaint Process:
+1. Student logs into ResolveIQ
+2. Student submits complaint with category and details
+3. Admin reviews complaint
+4. Complaint assigned to respective department
+5. Department resolves complaint
+6. Student can track status
+7. Student can rate complaint after resolution
+
+Important Features:
+- Students can track complaint status (Pending, In Progress, Resolved)
+- Students can reopen complaint if not satisfied
+- Students can rate complaint resolution
